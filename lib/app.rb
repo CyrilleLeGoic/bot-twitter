@@ -16,16 +16,16 @@ require 'twitter'
 #    return client
 #end
 
-def login_twitter
+#def login_twitter
 #C'est la méthode qui va me permettre de me connecter
-   client = Twitter::Streaming::Client.new do |config|
-      config.consumer_key         = ENV["TWITTER_CONSUMER_KEY"]
-      config.consumer_secret      = ENV["TWITTER_CONSUMER_SECRET"]
-      config.access_token         = ENV["TWITTER_ACCESS_TOKEN"]
-      config.access_token_secret  = ENV["TWITTER_ACCESS_TOKEN_SECRET"]
-    end
-    return client
-end
+#   client = Twitter::Streaming::Client.new do |config|
+#      config.consumer_key         = ENV["TWITTER_CONSUMER_KEY"]
+#      config.consumer_secret      = ENV["TWITTER_CONSUMER_SECRET"]
+#      config.access_token         = ENV["TWITTER_ACCESS_TOKEN"]
+#      config.access_token_secret  = ENV["TWITTER_ACCESS_TOKEN_SECRET"]
+#    end
+#    return client
+#end
 
 
 
@@ -85,13 +85,8 @@ end
 
 #def ca_va_liker_et_en_plus_ca_va_follow
 
-#  client = login_twitter
-#  client.filter(track: "#hogwarts") do |tweet|
 
-#  if tweet.is_a?(Twitter::Tweet)
-#      puts tweet.text
-#      rclient.favorite(tweet)
-#      rclient.follow(tweet.user.id)
+
 #  end
 #end
 
